@@ -1,0 +1,285 @@
+{
+    "os": "Linux-4.15.0-55-generic-x86_64-with-glibc2.27",
+    "python": "3.9.16",
+    "heartbeatAt": "2023-03-03T11:37:42.780741",
+    "startedAt": "2023-03-03T11:37:41.629749",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--outdir=/home/jio/workspace/results/3DInversion/Inversion/InNOut_20230303_203504/ZZ3fBpZE1Z8/w_plus",
+        "--latent_space_type",
+        "w_plus",
+        "--network=/home/jio/workspace/3DInversion/pretrained/ffhqrebalanced512-64.pkl",
+        "--sample_mult=2",
+        "--img_dir",
+        "/home/jio/workspace/data/3DInversion/230217/frame_imgs/ZZ3fBpZE1Z8/results",
+        "--dataset_json_path",
+        "/home/jio/workspace/data/3DInversion/230217/frame_imgs/ZZ3fBpZE1Z8/results/dataset.json",
+        "--exp_serial",
+        "InNOut_20230303_203504"
+    ],
+    "state": "running",
+    "program": "/home/jio/workspace/3DInversion/Inversion/In-n-out-Inversion/eg3d/run_projector.py",
+    "codePath": "eg3d/run_projector.py",
+    "git": {
+        "remote": "https://github.com/oneThousand1000/EG3D-projector.git",
+        "commit": "5f0340caf47c9c8d1079eac02f7044fb52ca5abb"
+    },
+    "email": "kimjio0728@yonsei.ac.kr",
+    "root": "/home/jio/workspace/3DInversion/Inversion/In-n-out-Inversion",
+    "host": "alin9",
+    "username": "jio",
+    "executable": "/home/jio/anaconda3/envs/eg3d/bin/python",
+    "cpu_count": 20,
+    "cpu_count_logical": 40,
+    "cpu_freq": {
+        "current": 1.3317500000000002,
+        "min": 1200.0,
+        "max": 3100.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1.354,
+            "min": 1200.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1.199,
+            "min": 1200.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1.2,
+            "min": 1200.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1.608,
+            "min": 1200.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1.201,
+            "min": 1200.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1.439,
+            "min": 1200.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1.719,
+            "min": 1200.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1.663,
+            "min": 1200.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1.202,
+            "min": 1200.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1.282,
+            "min": 1200.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1.202,
+            "min": 1200.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1.201,
+            "min": 1200.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1.391,
+            "min": 1200.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1.414,
+            "min": 1200.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1.276,
+            "min": 1200.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1.226,
+            "min": 1200.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1.201,
+            "min": 1200.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1.202,
+            "min": 1200.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1.377,
+            "min": 1200.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1.202,
+            "min": 1200.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1.297,
+            "min": 1200.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1.198,
+            "min": 1200.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1.199,
+            "min": 1200.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1.613,
+            "min": 1200.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1.2,
+            "min": 1200.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1.252,
+            "min": 1200.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1.58,
+            "min": 1200.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1.701,
+            "min": 1200.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1.2,
+            "min": 1200.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1.219,
+            "min": 1200.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1.2,
+            "min": 1200.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1.2,
+            "min": 1200.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1.341,
+            "min": 1200.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1.364,
+            "min": 1200.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1.359,
+            "min": 1200.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1.226,
+            "min": 1200.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1.2,
+            "min": 1200.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1.2,
+            "min": 1200.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1.5,
+            "min": 1200.0,
+            "max": 3100.0
+        },
+        {
+            "current": 1.2,
+            "min": 1200.0,
+            "max": 3100.0
+        }
+    ],
+    "disk": {
+        "total": 914.7647399902344,
+        "used": 848.0997886657715
+    },
+    "gpu": "NVIDIA GeForce RTX 2080 Ti",
+    "gpu_count": 8,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 2080 Ti",
+            "memory_total": 11811160064
+        },
+        {
+            "name": "NVIDIA GeForce RTX 2080 Ti",
+            "memory_total": 11811160064
+        },
+        {
+            "name": "NVIDIA GeForce RTX 2080 Ti",
+            "memory_total": 11811160064
+        },
+        {
+            "name": "NVIDIA GeForce RTX 2080 Ti",
+            "memory_total": 11811160064
+        },
+        {
+            "name": "NVIDIA GeForce RTX 2080 Ti",
+            "memory_total": 11811160064
+        },
+        {
+            "name": "NVIDIA GeForce RTX 3070 Ti",
+            "memory_total": 8589934592
+        },
+        {
+            "name": "NVIDIA GeForce RTX 2080 Ti",
+            "memory_total": 11811160064
+        },
+        {
+            "name": "NVIDIA GeForce RTX 2080 Ti",
+            "memory_total": 11811160064
+        }
+    ],
+    "memory": {
+        "total": 251.78716659545898
+    }
+}

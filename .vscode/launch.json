@@ -1,0 +1,57 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Attach using Process Id",
+            "type": "python",
+            "request": "attach",
+            "processId": "${command:pickProcess}",
+            "justMyCode": true,
+            "logToFile": true
+        }
+
+        {
+            "name": "Python: gen_samples.py args",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "args": [
+                "--network", "/home/jio/workspace/3DInversion/data_preprocessing/pretrained/ffhqrebalanced512-64.pkl",
+                "--seeds", "42, 10",
+                "--outdir", "/home/jio/workspace/data/debug2"
+            ],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "subProcess": true,
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "run_projector",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "args": [
+                "--network", "/home/jio/workspace/3DInversion/pretrained/ffhqrebalanced512-64.pkl",
+                "--img_dir", "/home/jio/workspace/data/3DInversion/230215/frame_imgs/WiQ09XUO_NY/results/",
+                "--outdir", "/home/jio/workspace/results/3DInversion/Inversion/debug",
+                "--dataset_json_path", "/home/jio/workspace/data/3DInversion/230215/frame_imgs/WiQ09XUO_NY/results/dataset.json",
+                "--num_steps", "3",
+                "--latent_space_type", "w_plus",
+                "--config_path", "/home/jio/workspace/3DInversion/Inversion/config/in_n_out_inversion.yml"
+            ],
+            "subProcess": true,
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}

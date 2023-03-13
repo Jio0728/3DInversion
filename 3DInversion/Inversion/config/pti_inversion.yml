@@ -1,0 +1,49 @@
+DEBUG: False
+GPU_NUM: 2
+WANDB: False
+
+PATH:
+  prj: 
+    prj_name: 3DInversion
+    work_type: Inversion
+    prj_dir_list:
+      - EG3D-projector
+      - eg3d
+  data_info:
+    serial: 230217
+    dataset: frame_imgs
+    process_whole: True
+    v_id_list:
+      - 7uVYfHYj-ag
+      - EQ7jqNAPqPk
+      - 1pzV9GoSuys
+  model:
+    pretrained: True
+    serial: ffhqrebalanced512-64.pkl
+
+EXPERIMENT:
+  inversion: PTI # InNOut # PTI
+  space: w_plus # w # w_plus
+  pose_mode: orig # orig # mirror
+  eg3d_modified: False
+  trunc: 0.7
+  sample_mult: 2
+
+  Projector:
+    alpha: 0
+    num_steps: 200
+    initial_learning_rate: 0.01
+    initial_noise_factor: 0.05
+    lr_rampdown_length: 0.25
+    lr_rampup_length: 0.05
+    noise_ramp_length: 0.75
+    image_log_step: 50
+    regularization: 
+      delta: 0 # latent variance
+      noise_weight: 100000 # 1.0e5
+    loss:
+      lpips: 1.0
+      l2: 0
+
+  PTI:
+    pti: True

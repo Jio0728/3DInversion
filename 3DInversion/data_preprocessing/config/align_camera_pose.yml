@@ -1,0 +1,9 @@
+DEBUG: False
+
+PATH:
+  prj_name: 3DInversion
+  serial: 230216
+  dataset: frame_imgs
+
+SETTING:
+  tf_cpp_min_log_level: 3

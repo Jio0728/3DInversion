@@ -1,0 +1,46 @@
+DEBUG: False
+GPU_NUM: 1
+WANDB: False
+
+PATH:
+  prj: 
+    prj_name: 3DInversion
+    work_type: Editing
+    prj_dir_list:
+      - eg3d #CHANGE
+      - eg3d
+  data_info:
+    serial: 230217
+    dataset: frame_imgs
+  latent_info:
+    latent_inversion: Inversion
+    latent_serial: PTI_20230309_233040
+    process_whole: False
+    v_id_list:
+      - WiQ09XUO_NY
+      # - AfFmhCfnqqE
+      # - biwaF_yRdHMs
+  model:
+    generator: ffhqrebalanced512-64.pkl
+    encoder: 
+  
+EXPERIMENT:
+  editing: transformer # opt # transformer
+  pti_tuned_g: True
+  space: w_plus
+  seed: 42
+  num_steps: 100
+  text: red lips
+  mode: edit
+  latent_mode:
+  optimizer: Adam
+  hyperparameters:
+    lr_init: 0.05
+    lr_rampup: 0.05
+    l2_lambda: 0.2
+    id_lambda: 0.005
+    trunc: 0.7
+
+SETTING:
+  image_log_step: 20
+  

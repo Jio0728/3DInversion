@@ -1,0 +1,9 @@
+DEBUG: False
+
+PATH:
+  prj_name: 3DInversion
+  v_serial: 230215
+  f_serial: 230216
+SETTING:
+  frame_num: 50
+  data_num: 30

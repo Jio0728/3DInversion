@@ -1,0 +1,24 @@
+DEBUG: True
+GPU_NUM: 0
+
+PATH:
+  prj: 
+    prj_name: 3DInversion
+    work_type: data_preprocessing
+    prj_dir_list:
+      - eg3d
+      - eg3d
+  data_info:
+    serial: 230215
+    dataset: frame_imgs
+    v_id_list:
+      - 7uVYfHYj-ag
+      - EQ7jqNAPqPk
+      - 1pzV9GoSuys
+  model:
+    pretrained: True
+    serial: ffhqrebalanced512-64.pkl
+
+EXPERIMENT:
+  space: z # z # w
+  pose_mode: orig # orig # mirror
